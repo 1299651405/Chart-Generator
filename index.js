@@ -16,6 +16,9 @@ function handleFiles() {
     reader.readAsText(file);
 }
 
+const example = d3.csvParse("example.csv");
+const example_with_groups = d3.csvParse("example_with_groups.csv");
+
 
 // set the dimensions and margins of the graph
 const margin = { top: 10, right: 10, bottom: 10, left: 10 },
@@ -32,7 +35,8 @@ var svg = d3.select("#my_dataviz")
     .append("g")
     .attr("transform", `translate(${width / 2},${height / 2})`); // Add 100 on Y translation, cause upper bars are longer
 
-function chart(data) {
+function gen_chart(data) {
+    d3.selectAll("svg > *").remove();
     // X scale
     const x = d3.scaleBand()
         .range([0, 2 * Math.PI])    // X axis goes from 0 to 2pi = all around the circle. If I stop at 1Pi, it will be around a half circle

@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <script src="https://d3js.org/d3.v6.js"></script>
+<script src="index.js"></script>
 <style>
     svg {
         width: 100%
@@ -13,8 +14,9 @@
 <body>
 <label for="input">Select a file:</label>
 <input type="file" id="input" onchange="handleFiles">
+<button onclick="chart(example)" >Example</button>
+<button onclick="chart(example_with_groups)" >Example with groups</button>
 <div id="my_dataviz" style="border: 2px solid black; margin-top: 8px;"></div>
 
-<script src="index.js"></script>
 </body>
 </html>

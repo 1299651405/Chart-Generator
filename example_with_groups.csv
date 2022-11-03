@@ -1,0 +1,46 @@
+Human,Wellbeing,Active Lifestyle,4
+Human,Wellbeing,Daylight,2
+Human,Wellbeing,Overheating,3
+Human,Wellbeing,water,3
+Human,Wellbeing,Air Quality,3
+Human,Wellbeing,Acoustic Standards,2
+Human,Social Value,Community Support,4
+Human,Social Value,Diversity,2
+Human,Social Value,Stewardship,2
+Human,Social Value,Social Innovation,2
+Human,Social Value,Affordable Homes,3
+Human,employment,Local economy,4
+Human,employment,Job Creation,4
+Human,employment,Training,4
+Human,employment,Long Term Empl. opp.,3
+Nature,Microclimate,Wind comfort,3
+Nature,Microclimate,Heat Island,2
+Nature,Microclimate,Green networks,2
+Nature,Microclimate,Ex. Air quality,3
+Nature,Microclimate,Noise Pollution,4
+Nature,Landscspe,Urban Greening,2
+Nature,Landscspe,Landscape Character,4
+Nature,Landscspe,Biodiversity,3
+Nature,Landscspe,Habitat Creation,2
+Nature,Environment,CO2 Emissions,4
+Nature,Environment,Embodies Co2,3
+Nature,Environment,Water Management,4
+Nature,Environment,Rainwater Harvesting,2
+Nature,Environment,SUDs,3
+Nature,Environment,Construction Innovation,4
+Nature,Environment,Sustaiable Innovation,3
+Nature,Environment,Circular Economy,2
+Nature,Environment,Disruption,2
+Nature,Environment,Construction Waste,3
+Place,Urban,Play spaces,3
+Place,Urban,Character,4
+Place,Urban,Context and Built Forms,4
+Place,Architecture,Movement,4
+Place,Architecture,Mixed use and lifespan,3
+Place,Architecture,Distictiveness,3
+Place,Amentites,Walking,3
+Place,Amentites,Cycling,4
+Place,Amentites,Public Transport,3
+Place,Amentites,Car Parking,2
+Place,Amentites,Low Carbon transport,3
+Supertopic,Topic,Category,Score
